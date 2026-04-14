@@ -20,13 +20,8 @@ General Recommendations:
 
 Print Settings Used (OrcaSlicer -- Flashforge Adventure 5M):
 - Default settings for PLA (0.20mm Standard @Flashforge AD5M 0.4 Nozzle)
-- Strength:
--- sparse infill density: 8%
--- sparse infill pattern: Triangles
-- Support:
--- enable support: true
--- type: Tree (Manual)
--- on build plate only: true
+- Strength: sparse infill density: 8%, sparse infill pattern: Triangles
+- Support: enable support: true, type: Tree (Manual), on build plate only: true
 
 1. Due to how tightly the parts are packed together, access to the antenna assembly is restricted to through the screen cutout visible in “board_section_v2.stl”. This means that access will be limited yet still possible. The antenna can be installed more easily during assembly of the case, after the ground plane is cut and put in.
 
