@@ -1,4 +1,4 @@
-[<img src="case_images/foxbox_iso.jpg">] [<img src="case_images/foxbox_bottom.jpg">] [<img src="case_images/foxbox_foxhole.jpg">]
+<img src="case_images/foxbox_iso.jpg", width="500px"> <img src="case_images/foxbox_bottom.jpg" , width="500px"> <img src="case_images/foxbox_foxhole.jpg" , width="500px">
  
  This model was designed with the capabilities of the Flashforge Adventure 5M FDM printer in mind. Printers with similar capabilities will hopefully not experience print issues when it comes to some of the dimensions. The case is meant to be pressed together without glue. However, since the case is not meant to be taken back apart after assembly -- glue may be used for a more secure fit. Access to the board, battery, and antenna (1) remain post assembly.
 
