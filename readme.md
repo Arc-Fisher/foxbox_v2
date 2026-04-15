@@ -1,7 +1,7 @@
 <div>
-  <img src="case_images/foxbox_iso.jpg" width="30%"/>
-  <img src="case_images/foxbox_bottom.jpg" width="30%"/>
-  <img src="case_images/foxbox_foxhole.jpg" width="30%"/>
+  <img src="case_images/foxbox_iso.jpg" width="33%"/>
+  <img src="case_images/foxbox_bottom.jpg" width="33%"/>
+  <img src="case_images/foxbox_foxhole.jpg" width="33%"/>
 </div>
  
  This model was designed with the capabilities of the Flashforge Adventure 5M FDM printer in mind. Printers with similar capabilities will hopefully not experience print issues when it comes to some of the dimensions. The case is meant to be pressed together without glue. However, since the case is not meant to be taken back apart after assembly -- glue may be used for a more secure fit. Access to the board, battery, and antenna (1) remain post assembly.
@@ -11,12 +11,18 @@ This model was also designed around the following parts:
 - Battery: 3000mAh 3.7V LiPo battery
 - Antenna: 915MHz SMA antenna
 
-The file “antenna_template_v2.stl” is meant to be used for the construction of a ground plane. The provided template is meant to construct a ground plane for antennas tuned to 915Mhz. Example images for this are provided in the “antenna_template_reference_images” folder of this directory.
+The file “antenna_template_v2.stl” is meant to be used for the construction of a ground plane. The provided template is meant to construct a ground plane for antennas tuned to 915Mhz.
+
+<div>
+  <img src="antenna_template_reference_images/1.jpg" width="33%"/>
+  <img src="antenna_template_reference_images/2.jpg" width="33%"/>
+  <img src="antenna_template_reference_images/3.jpg" width="33%"/>
+</div>
 
 General Recommendations:
 - After the ground plane is cut and put in, the antenna can be installed while easier access is still available.
 - When assembling, try snapping the sectioning plate (sectioning_plate_v2.stl) onto the board section (board_section_v2.stl) slowly, being careful not to damage the pegs sticking out of the board section. Try installing the sectioning plate in a similar manner you would a car tire, alternating between distant points. The same methodology is recommended when attaching the battery section (battery_section*_v2.stl [2]).
-- Paint supports in slicer software for the antenna and the USB-C connection cutout.
+- Paint supports in slicer software for the antenna and the USB-C connection cutouts.
 
 Print Settings Used (OrcaSlicer -- Flashforge Adventure 5M):
 - Default settings for PLA (0.20mm Standard @Flashforge AD5M 0.4 Nozzle)
